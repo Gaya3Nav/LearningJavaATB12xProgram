@@ -19,5 +19,16 @@ public class ExpressionResultTable {
         System.out.println(c);
         System.out.println(d);
 
+        int e = 10;
+      //  System.out.println(++e + e);
+        System.out.println(e++ + e);
+
+        int f = 10;
+        System.out.println("Expression value "+ (f++ + ++f));//(10 , 11, 12)
+        System.out.println(f);
+
+        int g = 10;
+        System.out.println("Expression value "+ (++g + ++g));//(11 + 12 =23)
+        System.out.println(g);// 12
     }
 }
